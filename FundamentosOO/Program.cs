@@ -138,9 +138,26 @@ internal class Program
         galinha.emitirSom();
         */
 
-        Mago mago = new Mago();
-        mago.Nome = "José";
-        mago.Nivel =
+        Mago merlin = new Mago();
+        merlin.Nome = " Mago Merlin";
+        merlin.Vida = 100;
+        merlin.Inteligencia = 87;
+        merlin.Agilidade = 55;
+        merlin.Forca = 62;
+        merlin.Nivel = 1;
+
+        Elfo elfo = new Elfo();
+        elfo.Nome = "Julius";
+        elfo.Vida = 100;
+        elfo.Inteligencia = 83;
+        elfo.Forca = 56;
+        elfo.Agilidade = 60;
+        elfo.Nivel = 1;
+
+        merlin.apresentarSe();
+        elfo.apresentarSe();
+
+        merlin.batalhar(elfo);
     }
 }
 

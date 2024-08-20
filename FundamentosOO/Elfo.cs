@@ -10,27 +10,12 @@ namespace FundamentosOO
     {
         public override void apresentarSe()
         {
-            Console.WriteLine("Olá, eu sou o Elfo " + this.Nome + " tenho " + this.Vida + "pontos de vida");
+            Console.WriteLine(" Olá, eu sou um Elfo " + this.Nome + " Tenho " + this.Vida + "\n Pontos de vida,\n Inteligencia: " + this.Inteligencia + ",\n Agilidade: " + this.Agilidade + "\nForça: " + this.Forca + "\n Meu nível atual é: " + this.Nivel);
+            Console.WriteLine("===========================================================");
         }
 
-        public override void atacar()
-        {
-            throw new NotImplementedException();
-        }
 
-        public override void batalhar()
-        {
-            throw new NotImplementedException();
-        }
 
-        public override void defender()
-        {
-            throw new NotImplementedException();
-        }
 
-        public override void evoluir()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
