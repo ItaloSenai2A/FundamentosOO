@@ -121,6 +121,7 @@ internal class Program
         Console.WriteLine("O animal " + animal1.Especie + "emitiu um som.");
         */
 
+        /*
         Gato gato = new Gato();
         gato.Nome = "Frajola";
         Console.WriteLine(gato.Nome + " faz: ");
@@ -135,6 +136,11 @@ internal class Program
         galinha.Nome = "Lola";
         Console.WriteLine(galinha.Nome + " faz: ");
         galinha.emitirSom();
+        */
+
+        Mago mago = new Mago();
+        mago.Nome = "José";
+        mago.Nivel =
     }
 }
 
